@@ -5,22 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Ingredient.destroy_all
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "basilic")
 Ingredient.create(name: "grenadine")
 Ingredient.create(name: "sugar")
 Ingredient.create(name: "honey")
-Ingredient.create(name: "mint leaves")
-Ingredient.create(name: "mint leaves")
-Ingredient.create(name: "lemon")
-Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
-Ingredient.create(name: "mint leaves")
-Ingredient.create(name: "lemon")
-Ingredient.create(name: "ice")
-Ingredient.create(name: "mint leaves")
-Ingredient.create(name: "mint leaves")
 Ingredient.create(name: "Light rum")
 Ingredient.create(name: "Applejack")
 Ingredient.create(name: "Gin")
@@ -54,133 +45,38 @@ Ingredient.create(name: "Irish whiskey")
 Ingredient.create(name: "Apple brandy")
 Ingredient.create(name: "Carbonated water")
 Ingredient.create(name: "Cherry brandy")
-# "Creme de Cacao"
-# "Grenadine"
-# "Port"
-# "Coffee brandy"
-# "Red wine"
-# "Rum"
-# "Grapefruit juice"
-# "Ricard"
-# "Sherry"
-# "Cognac"
-# "Sloe gin"
-# "Apple juice"
-# "Pineapple juice"
-# "Lemon juice"
-# "Sugar syrup"
-# "Milk"
-# "Strawberries"
-# "Chocolate syrup"
-# "Yoghurt"
-# "Mango"
-# "Ginger"
-# "Lime"
-# "Cantaloupe"
-# "Berries"
-# "Grapes"
-# "Kiwi"
-# "Tomato juice"
-# "Cocoa powder"
-# "Chocolate"
-# "Heavy cream"
-# "Galliano"
-# "Peach Vodka"
-# "Ouzo"
-# "Coffee"
-# "Spiced rum"
-# "Water"
-# "Espresso"
-# "Angelica root"
-# "Orange"
-# "Cranberries"
-# "Johnnie Walker"
-# "Apple cider"
-# "Everclear"
-# "Cranberry juice"
-# "Egg yolk"
-# "Egg"
-# "Grape juice"
-# "Peach nectar"
-# "Lemon"
-# "Firewater"
-# "Lemonade"
-# "Lager"
-# "Whiskey"
-# "Absolut Citron"
-# "Pisco"
-# "Irish cream"
-# "Ale"
-# "Chocolate liqueur"
-# "Midori melon liqueur"
-# "Sambuca"
-# "Cider"
-# "Sprite"
-# "7-Up"
-# "Blackberry brandy"
-# "Peppermint schnapps"
-# "Creme de Cassis"
-# "Jack Daniels"
-# "Bailey's irish cream"
-# "151 proof rum"
-# "Absolut Vodka"
-# "Goldschlager"
-# "Crown Royal"
-# "Cointreau"
-# "Vermouth"
-# "Advocaat"
-# "Absolut Kurant"
-# "Beer"
-# "Kool-Aid"
-# "Cherry Heering"
-# "White Creme de Menthe"
-# "Malibu rum"
-# "Vanilla vodka"
-# "Jägermeister"
-# "Kiwi liqueur"
-# "Grand Marnier"
-# "Cachaca"
-# "Peachtree schnapps"
-# "Wild Turkey"
-# "Cranberry vodka"
-# "Corona"
-# "Orange juice"
-# "Yukon Jack"
-# "Chocolate ice-cream"
-# "Coconut rum"
-# "Banana liqueur"
-# "Black Sambuca"
-# "Hot Damn"
-# "Mint"
-# "Campari"
-# "Ice"
-# "Sour mix"
-# "Absinthe"
-# "Whisky"
-# "Guinness stout"
-# "Vanilla ice-cream"
-# "Chambord raspberry liqueur"
-# "Jim Beam"
-# "Godiva liqueur"
-# "Fruit punch"
-# "Baileys irish cream"
-# "Zima"
-# "Blue Curacao"
-# "Coca-Cola"
-# "Maui"
-# "Frangelico"
-# "Bacardi Limon"
-# "Raspberry vodka"
-# "Green Creme de Menthe"
-# "Lemon peel"
-# "Prosecco"
-# "White Rum"
-# "Mezcal"
-# "Green Chartreuse"
-# "Grape Soda"
-# "Hot Chocolate"
-# "Blended Scotch"
-# "Rye whiskey"
-# "Pisco"
-# "Blueberries"
-# "Strawberries"
+Ingredient.create(name: "Creme de Cacao")
+Ingredient.create(name: "Grenadine")
+Ingredient.create(name: "Port")
+Ingredient.create(name: "Coffee brandy")
+Ingredient.create(name: "Red wine")
+Ingredient.create(name: "Rum")
+Ingredient.create(name: "Grapefruit juice")
+Ingredient.create(name: "Ricard")
+Ingredient.create(name: "Sherry")
+Ingredient.create(name: "Cognac")
+Ingredient.create(name: "Sloe gin")
+Ingredient.create(name: "Apple juice")
+Ingredient.create(name: "Pineapple juice")
+Ingredient.create(name: "Lemon juice")
+Ingredient.create(name: "Sugar syrup")
+Ingredient.create(name: "Milk")
+Ingredient.create(name: "Strawberries")
+Ingredient.create(name: "Chocolate syrup")
+Ingredient.create(name: "Yoghurt")
+Ingredient.create(name: "Mango")
+Ingredient.create(name: "Ginger")
+Ingredient.create(name: "Lime")
+Ingredient.create(name: "Cantaloupe")
+Ingredient.create(name: "Berries")
+Ingredient.create(name: "Grapes")
+Ingredient.create(name: "Kiwi")
+Ingredient.create(name: "Tomato juice")
+Ingredient.create(name: "Cocoa powder")
+Ingredient.create(name: "Chocolate")
+Ingredient.create(name: "Heavy cream")
+Ingredient.create(name: "Galliano")
+Ingredient.create(name: "Peach Vodka")
+Ingredient.create(name: "Ouzo")
+Ingredient.create(name: "Coffee")
+Ingredient.create(name: "Water") Ingredient.create(name: "Espresso") Ingredient.create(name: "Angelica root") Ingredient.create(name: "Orange") Ingredient.create(name: "Cranberries") Ingredient.create(name: "Johnnie Walker") Ingredient.create(name: "Apple cider") Ingredient.create(name: "Everclear") Ingredient.create(name: "Cranberry juice") Ingredient.create(name: "Egg yolk") Ingredient.create(name: "Egg") Ingredient.create(name: "Grape juice") Ingredient.create(name: "Peach nectar") Ingredient.create(name: "Lemon") Ingredient.create(name: "Firewater") Ingredient.create(name: "Lemonade") Ingredient.create(name: "Lager") Ingredient.create(name: "Whiskey") Ingredient.create(name: "Absolut Citron") Ingredient.create(name: "Pisco") Ingredient.create(name: "Irish cream") Ingredient.create(name: "Ale") Ingredient.create(name: "Chocolate liqueur") Ingredient.create(name: "Midori melon liqueur") Ingredient.create(name: "Sambuca") Ingredient.create(name: "Cider") Ingredient.create(name: "Sprite") Ingredient.create(name: "7-Up") Ingredient.create(name: "Blackberry brandy") Ingredient.create(name: "Peppermint schnapps") Ingredient.create(name: "Creme de Cassis") Ingredient.create(name: "Jack Daniels") Ingredient.create(name: "Bailey's irish cream") Ingredient.create(name: "151 proof rum") Ingredient.create(name: "Absolut Vodka") Ingredient.create(name: "Goldschlager") Ingredient.create(name: "Crown Royal") Ingredient.create(name: "Cointreau") Ingredient.create(name: "Vermouth") Ingredient.create(name: "Advocaat") Ingredient.create(name: "Absolut Kurant") Ingredient.create(name: "Beer") Ingredient.create(name: "Kool-Aid") Ingredient.create(name: "Cherry Heering") Ingredient.create(name: "White Creme de Menthe") Ingredient.create(name: "Malibu rum") Ingredient.create(name: "Vanilla vodka") Ingredient.create(name: "Jägermeister") Ingredient.create(name: "Kiwi liqueur") Ingredient.create(name: "Grand Marnier") Ingredient.create(name: "Cachaca") Ingredient.create(name: "Peachtree schnapps") Ingredient.create(name: "Wild Turkey") Ingredient.create(name: "Cranberry vodka") Ingredient.create(name: "Corona") Ingredient.create(name: "Orange juice") Ingredient.create(name: "Yukon Jack") Ingredient.create(name: "Chocolate ice-cream") Ingredient.create(name: "Coconut rum") Ingredient.create(name: "Banana liqueur") Ingredient.create(name: "Black Sambuca") Ingredient.create(name: "Hot Damn") Ingredient.create(name: "Mint") Ingredient.create(name: "Campari") Ingredient.create(name: "Ice") Ingredient.create(name: "Sour mix") Ingredient.create(name: "Absinthe") Ingredient.create(name: "Whisky") Ingredient.create(name: "Guinness stout") Ingredient.create(name: "Vanilla ice-cream") Ingredient.create(name: "Chambord raspberry liqueur") Ingredient.create(name: "Jim Beam") Ingredient.create(name: "Godiva liqueur") Ingredient.create(name: "Fruit punch") Ingredient.create(name: "Baileys irish cream") Ingredient.create(name: "Zima") Ingredient.create(name: "Blue Curacao") Ingredient.create(name: "Coca-Cola") Ingredient.create(name: "Maui") Ingredient.create(name: "Frangelico") Ingredient.create(name: "Bacardi Limon") Ingredient.create(name: "Raspberry vodka") Ingredient.create(name: "Green Creme de Menthe") Ingredient.create(name: "Lemon peel") Ingredient.create(name: "Prosecco") Ingredient.create(name: "White Rum") Ingredient.create(name: "Mezcal") Ingredient.create(name: "Green Chartreuse") Ingredient.create(name: "Grape Soda") Ingredient.create(name: "Hot Chocolate") Ingredient.create(name: "Blended Scotch") Ingredient.create(name: "Rye whiskey") Ingredient.create(name: "Pisco") Ingredient.create(name: "Blueberries") Ingredient.create(name: "Strawberries")

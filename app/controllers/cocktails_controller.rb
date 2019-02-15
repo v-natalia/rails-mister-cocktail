@@ -1,6 +1,4 @@
 class CocktailsController < ApplicationController
-
-
   def index         # GET /cocktails
     @cocktails = Cocktail.all
   end

@@ -1,6 +1,18 @@
+<h1>New Cocktail</h1>
+
+<!-- <%= render 'form', cocktail: @cocktail %> -->
+
+
+
+
 <div>
 <%= simple_form_for @cocktail do |f| %>
   <%= f.input :name %>
   <%= f.submit "Add a new cocktail" %>
 <% end %>
+
+
+<%= link_to 'Back', cocktails_path %>
+
+
 </div>

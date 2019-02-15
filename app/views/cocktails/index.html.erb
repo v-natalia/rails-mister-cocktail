@@ -1,7 +1,33 @@
+<p id="notice"><%= notice %></p>
+
 <div class="container">
-  <h1>Miss Mocktail</h1>
-  <ul> <% @cocktails.each do |cocktail| %>
-    <li> <%= link_to cocktail.name, cocktail_path(cocktail) %> </li>
-    <% end %>
-  </ul>
+  <h1 class="glow">Miss Mocktail</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+  <!--   <ul> <% @cocktails.each do |cocktail| %>
+      <li> <%= link_to cocktail.name, cocktail_path(cocktail) %> </li>
+      <% end %>
+    </ul> -->
+
+    <% @cocktails.each do |cocktail| %>
+        <tr>
+          <td><%= cocktail.name %></td>
+          <td><%= link_to 'Show', cocktail %></td>
+          <td><%= link_to 'Destroy', cocktail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </div>
+
+<br>
+
+<%= link_to 'New Cocktail', new_cocktail_path %>

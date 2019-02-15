@@ -1,4 +1,6 @@
-<h1> <%= @cocktail.name %> </h1>
+<p id="notice"><%= notice %></p>
+
+<h1> <strong>Name:</strong> <%= @cocktail.name %> </h1>
 <%= link_to "Back to cocktails", cocktails_path %>
 <ul>
   <% @cocktail.doses.each do |dose| %>
@@ -6,6 +8,7 @@
   </li>
   <% end %>
 </ul>
+
 <div class="container">
   <h2> Add a dose</h2>
   <%= simple_form_for [@cocktail, Dose.new] do |f| %>
@@ -14,3 +17,5 @@
     <%= f.submit "Add new dose" %>
   <% end %>
 </div>
+
+<%= link_to 'Back', cocktails_path %>

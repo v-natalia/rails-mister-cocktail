@@ -21,16 +21,19 @@ class CocktailsController < ApplicationController
     end
   end
 
+  # def update
+  # respond_to do |format|
+  #   if @cocktail.update(cocktail_params)
+  #     redirect_to cocktail_path(@cocktail)
+  #   else
+  #     render :edit
+  #   end
+  # end
+  # end
+
   private
 
   def cocktails_params
     params.require(:cocktail).permit(:name)
   end
 end
-
-  # POST create
-  #   with valid params
-  #     creates a new Cocktail (FAILED - 2)
-  #     assigns a newly created cocktail as @cocktail (FAILED - 3)
-  #     redirects to the created cocktail (FAILED - 4)
-

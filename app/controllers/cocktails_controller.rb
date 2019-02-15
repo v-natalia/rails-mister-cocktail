@@ -21,6 +21,7 @@ class CocktailsController < ApplicationController
     end
   end
 
+
   # def update
   # respond_to do |format|
   #   if @cocktail.update(cocktail_params)

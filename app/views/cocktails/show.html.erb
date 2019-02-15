@@ -1,21 +1,37 @@
 <p id="notice"><%= notice %></p>
 
-<h1> <strong>Name:</strong> <%= @cocktail.name %> </h1>
+<div class="container">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1536918242710-881151fb107f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1383&q=80);">
+    <div class="container">
+      <h1 class="glow">Miss Mocktail</h1>
+      <p>Mocktails <strong>can</strong> be <strong>funny</strong>!</p>
+    </div>
+  </div>
+
+  <br>
+
+<h1 class="cocktail-title"> <%= @cocktail.name %> </h1>
 <%= link_to "Back to cocktails", cocktails_path %>
 <ul>
   <% @cocktail.doses.each do |dose| %>
   <li> <%= dose.description %> <%= dose.ingredient.name %>
   </li>
-  <% end %>
+ <% end %>
 </ul>
 
+
 <div class="container">
+  <form>
   <h2> Add a dose</h2>
   <%= simple_form_for [@cocktail, Dose.new] do |f| %>
-    <%= f.input :description %>
-    <%= f.association :ingredient %>
-    <%= f.submit "Add new dose" %>
-  <% end %>
+    <div class="form-group">
+      <%= f.input :description, placeholder: "Amount of ingredients"%>
+    </div>
+    <div class="form-group">
+      <%= f.association :ingredient %>
+    </div>
+      <%= f.submit "Add new ingredient" %>
+    <% end %>
+
 </div>
 
-<%= link_to 'Back', cocktails_path %>

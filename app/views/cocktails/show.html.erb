@@ -31,7 +31,8 @@
       <%= f.association :ingredient %>
     </div>
       <%= f.submit "Add new ingredient" %>
+      <%= f.input :photo, placeholder: "Upload a picture" %>
+      <%= f.input :photo_cache, as: :hidden %>
     <% end %>
 
 </div>
-

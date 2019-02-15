@@ -117,5 +117,6 @@ Ingredient.create(name: "luxardo cherry syrup")
 Ingredient.create(name: "Blue Cheese Olives")
 Ingredient.create(name: "Fresh Grated Ginger")
 Ingredient.create(name: "Dried Hibiscus")
+# Cocktail.create(name: "Grapefruit Citrus Sparkler", photo: "https://images.unsplash.com/photo-1523905179092-38c52d029c9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1480&q=80")
 
 

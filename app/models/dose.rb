@@ -5,5 +5,5 @@ class Dose < ApplicationRecord
   validates :cocktail_id, presence: true
   validates :ingredient_id, presence: true
   validates :cocktail_id, uniqueness: { scope: :ingredient_id,
-    message: "One dose per ingredient and cocktail" }
+    message: "One dose per ingredient and mocktail" }
 end

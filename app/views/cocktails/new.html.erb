@@ -1,18 +1,18 @@
 <h1>New Cocktail</h1>
 
-<!-- <%= render 'form', cocktail: @cocktail %> -->
-
-
-
-
-<div>
-<%= simple_form_for @cocktail do |f| %>
-  <%= f.input :name %>
-  <%= f.submit "Add a new cocktail" %>
-<% end %>
-
 
 <%= link_to 'Back', cocktails_path %>
 
 
+<div class="container">
+  <%= simple_form_for @cocktail do |f| %>
+<div class="form-group">
+  <%= f.input :name %>
+</div>
+<div class="form-group">
+    <%= f.input :photo, placeholder: "Upload a picture" %>
+    <%= f.input :photo_cache, as: :hidden %>
+</div>
+<%= f.submit "Add a new cocktail" %>
+<% end %>
 </div>

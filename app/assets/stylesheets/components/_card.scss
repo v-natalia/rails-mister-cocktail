@@ -12,9 +12,14 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   position: relative;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: #082444;
   a {
-    color: #082444;
+    color: white;
     text-align: center;
+    text-shadow: #082444;
     }
 }
 
@@ -32,9 +37,10 @@
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
   text-decoration: none;
+  margin: 20px;
 }
 
 ul {

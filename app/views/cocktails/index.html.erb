@@ -1,31 +1,25 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-  <h1 class="glow">Miss Mocktail</h1>
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url();">
+    <div class="container">
+      <h1 class="glow">Miss Mocktail</h1>
+      <p>Mocktails <strong>can</strong> be <strong>funny</strong>!</p>
+    </div>
+  </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th colspan="3"></th>
-      </tr>
-    </thead>
+  <br>
 
-    <tbody>
-  <!--   <ul> <% @cocktails.each do |cocktail| %>
-      <li> <%= link_to cocktail.name, cocktail_path(cocktail) %> </li>
-      <% end %>
-    </ul> -->
-
-    <% @cocktails.each do |cocktail| %>
-        <tr>
-          <td><%= cocktail.name %></td>
-          <td><%= link_to 'Show', cocktail %></td>
-          <td><%= link_to 'Destroy', cocktail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
+  <div class="cards">
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(picture)">
+      <ul> <% @cocktails.each do |cocktail| %>
+        <li> <%= link_to cocktail.name, cocktail_path(cocktail) %> </li>
+        <%= link_to 'Show', cocktail %>
+        <%= link_to 'Destroy', cocktail, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <br>

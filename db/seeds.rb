@@ -118,32 +118,32 @@
 # Ingredient.create(name: "Fresh Grated Ginger")
 # Ingredient.create(name: "Dried Hibiscus")
 
-puts "destroy cocktails"
-Cocktail.destroy_all
-puts "creating cocktails"
+# puts "destroy cocktails"
+# Cocktail.destroy_all
+# puts "creating cocktails"
 
-cocktail1 = Cocktail.create(name: "Grapefruit Citrus Sparkler", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461779/photo-1523905179092-38c52d029c9b.jpg")
-cocktail1.save!
+# cocktail1 = Cocktail.create(name: "Grapefruit Citrus Sparkler", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461779/photo-1523905179092-38c52d029c9b.jpg")
+# cocktail1.save!
 
-cocktail2 = Cocktail.create(name: "Ginger Beer Lemonade", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461796/photo-1545438102-799c3991ffb2.jpg")
-cocktail2.save!
+# cocktail2 = Cocktail.create(name: "Ginger Beer Lemonade", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461796/photo-1545438102-799c3991ffb2.jpg")
+# cocktail2.save!
 
-cocktail3 = Cocktail.create(name: "Strawberry Cucumber Limeade", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461819/photo-1513558161293-cdaf765ed2fd.jpg")
-cocktail3.save!
+# cocktail3 = Cocktail.create(name: "Strawberry Cucumber Limeade", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461819/photo-1513558161293-cdaf765ed2fd.jpg")
+# cocktail3.save!
 
-cocktail4 = Cocktail.create(name: "Classic Bloody Mary Mocktail", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461840/photo-1448832328263-620a1a483228.jpg")
-cocktail4.save!
+# cocktail4 = Cocktail.create(name: "Classic Bloody Mary Mocktail", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461840/photo-1448832328263-620a1a483228.jpg")
+# cocktail4.save!
 
-cocktail5 = Cocktail.create(name: "Apple Ginger Cocktail", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461941/photo-1501199532894-9449c0a85a77.jpg")
-cocktail5.save!
+# cocktail5 = Cocktail.create(name: "Apple Ginger Cocktail", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461941/photo-1501199532894-9449c0a85a77.jpg")
+# cocktail5.save!
 
-cocktail6 = Cocktail.create(name: "Rasberry Basil Mojito", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461955/photo-1485265449635-ca623a55e95c.jpg")
-cocktail6.save!
+# cocktail6 = Cocktail.create(name: "Rasberry Basil Mojito", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461955/photo-1485265449635-ca623a55e95c.jpg")
+# cocktail6.save!
 
-cocktail7 = Cocktail.create(name: "Summer Night Cocktail", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461969/photo-1514359652734-6205dd477a1e.jpg")
-cocktail7.save!
+# cocktail7 = Cocktail.create(name: "Summer Night Cocktail", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461969/photo-1514359652734-6205dd477a1e.jpg")
+# cocktail7.save!
 
-cocktail8 = Cocktail.create(name: "Virgin Pina Colada", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461981/photo-1490324120634-0fa86c62d6c1.jpg")
-cocktail8.save!
+# cocktail8 = Cocktail.create(name: "Virgin Pina Colada", photo: "https://res.cloudinary.com/nvegar/image/upload/v1553461981/photo-1490324120634-0fa86c62d6c1.jpg")
+# cocktail8.save!
 
-puts "cocktails created"
+# puts "cocktails created"

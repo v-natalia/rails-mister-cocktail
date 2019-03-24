@@ -14,13 +14,13 @@ class CocktailsController < ApplicationController
 
   def create        # POST /cocktails
     @cocktail = Cocktail.new(cocktails_params)
+
     if @cocktail.save
       redirect_to cocktail_path(@cocktail)
     else
       render :new
     end
   end
-
 
   # def update
   # respond_to do |format|

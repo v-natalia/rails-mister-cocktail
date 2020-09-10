@@ -1144,14 +1144,14 @@ browserslist@^3.2.6:
     electron-to-chromium "^1.3.47"
 
 browserslist@^4.0.0:
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.0.tgz#2908951abfe4ec98737b72f34c3bcedc8d43b000"
-  integrity sha512-pUsXKAF2lVwhmtpeA3LJrZ76jXuusrNyhduuQs7CDFf9foT4Y38aQOserd2lMe5DSSrjf3fx34oHwryuvxAUgQ==
+  version "4.14.2"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.2.tgz#1b3cec458a1ba87588cc5e9be62f19b6d48813ce"
+  integrity sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw==
   dependencies:
-    caniuse-lite "^1.0.30001111"
-    electron-to-chromium "^1.3.523"
+    caniuse-lite "^1.0.30001125"
+    electron-to-chromium "^1.3.564"
     escalade "^3.0.2"
-    node-releases "^1.1.60"
+    node-releases "^1.1.61"
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -1304,14 +1304,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30001122"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001122.tgz#ba9089b546e5542df57f3e07de5b0c7aa6b47cf8"
-  integrity sha512-Tq8Jgc6ec8F7fLCEPtS23Wb8p2gGZTAT9fA4ymCeLlyYnZNslpQaa8LR7uynXwpwXqor/8rdCZyG2yKYxdc+yw==
+  version "1.0.30001125"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001125.tgz#624d973e2c221ff6fd10b170fb04f4c718601a80"
+  integrity sha512-MN6D6aNZV8AGq5erwkaonrHBGe2dwkkQIqsPAuU6DtqqSngw6rhUhRhbSZib6cS9mrS0OSB2gmioaMrcz0tZSQ==
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001111:
-  version "1.0.30001122"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001122.tgz#2c8ff631330d986a07a7ba7125cce77a1373b475"
-  integrity sha512-pxjw28CThdrqfz06nJkpAc5SXM404TXB/h5f4UJX+rrXJKE/1bu/KAILc2AY+O6cQIFtRjV9qOR2vaEp9LDGUA==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001125:
+  version "1.0.30001125"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001125.tgz#2a1a51ee045a0a2207474b086f628c34725e997b"
+  integrity sha512-9f+r7BW8Qli917mU3j0fUaTweT3f3vnX/Lcs+1C73V+RADmFme+Ih0Br8vONQi3X0lseOe6ZHfsZLCA8MSjxUA==
 
 case-sensitive-paths-webpack-plugin@^2.1.2:
   version "2.3.0"
@@ -2259,9 +2259,9 @@ domutils@^1.7.0:
     domelementtype "1"
 
 dot-prop@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.2.0.tgz#c34ecc29556dc45f1f4c22697b6f4904e0cc4fcb"
-  integrity sha512-uEUyaDKoSQ1M4Oq8l45hSE26SnTxL6snNnqvK/VWx5wJhmff5z0FUVJDKDanor/6w3kzE3i7XZOk+7wC0EXr1A==
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
+  integrity sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==
   dependencies:
     is-obj "^2.0.0"
 
@@ -2288,10 +2288,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.523:
-  version "1.3.556"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.556.tgz#d2a8fed6b93051c5c27d182c43c7bc4d88b77afb"
-  integrity sha512-g5cGpg6rOCXxyfaLCQIWz9Fx+raFfbZ6sc4QLfvvaiCERBzY6YD6rh5d12QN++bEF1Tm9osYnxP37lbN/92j4A==
+electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.564:
+  version "1.3.564"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.564.tgz#e9c319ae437b3eb8bbf3e3bae4bead5a21945961"
+  integrity sha512-fNaYN3EtKQWLQsrKXui8mzcryJXuA0LbCLoizeX6oayG2emBaS5MauKjCPAvc29NEY4FpLHIUWiP+Y0Bfrs5dg==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -3487,9 +3487,9 @@ is-buffer@^1.1.5:
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
 
 is-callable@^1.1.4, is-callable@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.0.tgz#83336560b54a38e35e3a2df7afd0454d691468bb"
-  integrity sha512-pyVD9AaGLxtg6srb2Ng6ynWJqkHU9bEM087AKck0w8QwDarTfNcpIYoU8x8Hv2Icm8u6kFJM18Dag8lyqGkviw==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.1.tgz#4d1e21a4f437509d25ce55f8184350771421c96d"
+  integrity sha512-wliAfSzx6V+6WfMOmus1xy0XvSgf/dlStkvTfq7F0g4bOIW0PSUbnyse3NhDwdyYS1ozfUtAAySqTws3z9Eqgg==
 
 is-color-stop@^1.0.0:
   version "1.1.0"
@@ -4402,10 +4402,10 @@ node-libs-browser@^2.0.0:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-releases@^1.1.60:
-  version "1.1.60"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.60.tgz#6948bdfce8286f0b5d0e5a88e8384e954dfe7084"
-  integrity sha512-gsO4vjEdQaTusZAEebUWp2a5d7dF5DYoIpDG7WySnk7BuZDW+GPpHXoXXuYawRBr/9t5q54tirPz79kFIWg4dA==
+node-releases@^1.1.61:
+  version "1.1.61"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.61.tgz#707b0fca9ce4e11783612ba4a2fcba09047af16e"
+  integrity sha512-DD5vebQLg8jLCOzwupn954fbIiZht05DAZs0k2u8NStSe6h9XdsuIQL8hSRKYiU8WUQRznmSDrKGbv3ObOmC7g==
 
 node-sass@^4.9.2:
   version "4.14.1"
@@ -4985,9 +4985,9 @@ postcss-calc@^6.0.0:
     reduce-css-calc "^2.0.0"
 
 postcss-calc@^7.0.1:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-7.0.3.tgz#d65cca92a3c52bf27ad37a5f732e0587b74f1623"
-  integrity sha512-IB/EAEmZhIMEIhG7Ov4x+l47UaXOS1n2f4FBUk/aKllQhtSCxWhTzn0nJgkqN7fo/jcWySvWTSB6Syk9L+31bA==
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-7.0.4.tgz#5e177ddb417341e6d4a193c5d9fd8ada79094f8b"
+  integrity sha512-0I79VRAd1UTkaHzY9w83P39YGO/M3bG7/tNLrHGEunBolfoGM0hSjrGvjoeaj0JE/zIw5GsI2KZ0UwDJqv5hjw==
   dependencies:
     postcss "^7.0.27"
     postcss-selector-parser "^6.0.2"

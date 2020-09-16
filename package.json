@@ -6,7 +6,8 @@
     "bootstrap": "3",
     "jquery": "^3.5.0",
     "select2": "^4.0.6-rc.1",
-    "serialize-javascript": "3.1.0"
+    "serialize-javascript": "3.1.0",
+    "yargs-parser": "^13.1.2"
   },
   "devDependencies": {
     "bootstrap": ">=3.4.1",

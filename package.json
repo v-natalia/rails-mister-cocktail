@@ -4,6 +4,7 @@
   "dependencies": {
     "@rails/webpacker": "^3.5",
     "bootstrap": "3",
+    "color-string": "^1.5.5",
     "is-svg": "^4.2.2",
     "jquery": "^3.5.0",
     "node-forge": "^0.10.0",
